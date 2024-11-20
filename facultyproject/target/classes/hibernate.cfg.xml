@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Configuration de Hibernate -->
+<hibernate-configuration>
+    <session-factory>
+        <!-- Configuration de la source de données -->
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/projet</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password"></property>
+       	<!-- Création automatique des tables -->
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <!-- Autres propriétés de configuration -->
+     	
+    </session-factory>
+</hibernate-configuration>
